@@ -2,7 +2,7 @@ class InfixToPostfixConverter:
     def __init__(self, infix):
         self.infix = infix
         self.stack = []
-        self.postfix = []
+        self.postfix = [] 
 
     def precedence(self, x):
         if x == '+' or x == '-':
